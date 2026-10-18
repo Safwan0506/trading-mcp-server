@@ -1,0 +1,23 @@
+{
+  "name": "trading-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for forex trading analysis - technical + fundamental",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "technicalindicators": "^3.1.0",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.11.0"
+  }
+}
